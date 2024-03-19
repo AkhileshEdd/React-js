@@ -1,0 +1,14 @@
+*{
+  text-align: center;
+  margin: 10px;
+  
+}
+.content{
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+h1{
+
+  text-align: center;
+  
+}
