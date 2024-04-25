@@ -1,9 +1,11 @@
+import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
+
 function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#Home">
+          <a class="navbar-brand " href="#Home">
             Portfolio
           </a>
           <button
@@ -32,7 +34,7 @@ function Navbar() {
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  href="#projects"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -41,16 +43,15 @@ function Navbar() {
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="#projects">
                       Project 1
                     </a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">
-                        Project 2
+                      Project 2
                     </a>
                   </li>
-                  
                 </ul>
               </li>
               <li class="nav-item">
@@ -58,8 +59,13 @@ function Navbar() {
                   Contact
                 </a>
               </li>
-              </ul>
-           
+            </ul>
+            <a href="https://github.com/AkhileshEdd/React-js/tree/main/06_react_Portfolio" className="fs-2 mx-2 text-decoration-none link-secondary">
+              <AiFillGithub />
+            </a>
+            <a href="#" className="fs-2 mx-2 text-decoration-none link-secondary">
+              <AiFillTwitterCircle />
+            </a>
           </div>
         </div>
       </nav>
@@ -67,5 +73,4 @@ function Navbar() {
   );
 }
 
-
-export default Navbar
+export default Navbar;

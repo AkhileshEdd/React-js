@@ -15,13 +15,16 @@ function Hero() {
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              Responsive left-aligned hero with image
+            Welcome to my portfolio! 
             </h1>
             <p class="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Driven by a desire to stay updated with the latest technologies
+              and industry trends, I constantly strive to expand my knowledge
+              and explore new possibilities in web development. With a strong
+              foundation in computer science principles and a knack for
+              problem-solving, I approach each project with dedication and
+              attention to detail, ensuring optimal performance and user
+              satisfaction.
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button
